@@ -1,0 +1,24 @@
+{
+  "type": "module",
+  "name": "envtest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "envtest.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "startoperatingsystems": "cross-env PORT=8080 node envtest.js",
+    "start": "node envtest.js",
+    "startdev": "set NODE_CONFIG_ENV=production&&node envtest.js",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.7",
+    "cross-env": "^7.0.3",
+    "dotenv": "^14.3.2"
+  },
+  "devDependencies": {
+    "jest": "^27.4.7"
+  }
+}
