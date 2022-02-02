@@ -12,4 +12,4 @@ if (config.get("jwtPrivateKey")) {
 }
 
 console.log(config.get("port"));
-//console.log(process.env);
+console.log(process.env);
